@@ -25,7 +25,7 @@ return {
 
       -- Override UI elements colors
       custom_highlights = {
-        LineNr = { fg = "#384141" }, -- Line Number color
+        LineNr = { fg = "#424242" }, -- Line Number color
         NonText = { bg = "#1e1e1e" }, -- Background for "non-text" parts of the window (e.g. end of buffer)
         NormalNC = { bg = "#1e1e1e" }, -- Non-current window background
       },
