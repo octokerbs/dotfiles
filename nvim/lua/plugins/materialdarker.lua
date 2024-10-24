@@ -51,11 +51,13 @@ return {
     vim.api.nvim_set_hl(0, "@lsp.typemod.type.definition.go", { fg = "#ffcb6b" })
 
     -- C++
+    vim.api.nvim_set_hl(0, "@lsp.typemod.class.declaration.cpp", { fg = "#ffcb6b" })
     vim.api.nvim_set_hl(0, "@lsp.typemod.class.globalScope.cpp", { fg = "#ffcb6b" })
+    vim.api.nvim_set_hl(0, "@lsp.typemod.class.definition.cpp", { fg = "#ffcb6b" })
+    vim.api.nvim_set_hl(0, "@lsp.typemod.class.constructorOrDestructor.cpp", { fg = "#82aaff" })
     vim.api.nvim_set_hl(0, "@type.builtin.cpp", { fg = "#b384d2" })
     vim.api.nvim_set_hl(0, "@keyword.directive", { fg = "#82aaff" })
     vim.api.nvim_set_hl(0, "@constant.macro", { fg = "#ffcb6b" })
-    vim.api.nvim_set_hl(0, "@lsp.typemod.class.definition.cpp", { fg = "#82aaff" })
     vim.api.nvim_set_hl(0, "@boolean.cpp", { fg = "#b384d2" })
     vim.api.nvim_set_hl(0, "@character.cpp", { fg = "#c3e88d" })
     vim.api.nvim_set_hl(0, "@lsp.typemod.property.classScope.cpp", { fg = "#eeffff" })
