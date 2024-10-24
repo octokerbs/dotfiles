@@ -35,6 +35,7 @@ return {
         Comment = { fg = "#616161" },
         Identifier = { fg = "#eeffff" },
         String = { fg = "#c3e88d" },
+        Macro = { fg = "#82aaff" },
       },
     })
 
@@ -45,8 +46,20 @@ return {
     vim.api.nvim_set_hl(0, "@type.definition", { fg = "#ffcb6a" })
     vim.api.nvim_set_hl(0, "@variable.parameter", { fg = "#f78c6c" })
 
-    -- New Age
+    -- Go
     vim.api.nvim_set_hl(0, "@lsp.typemod.variable.readonly.go", { fg = "#f78c6c" })
     vim.api.nvim_set_hl(0, "@lsp.typemod.type.definition.go", { fg = "#ffcb6b" })
+
+    -- C++
+    vim.api.nvim_set_hl(0, "@lsp.typemod.class.globalScope.cpp", { fg = "#ffcb6b" })
+    vim.api.nvim_set_hl(0, "@type.builtin.cpp", { fg = "#b384d2" })
+    vim.api.nvim_set_hl(0, "@keyword.directive", { fg = "#82aaff" })
+    vim.api.nvim_set_hl(0, "@constant.macro", { fg = "#ffcb6b" })
+    vim.api.nvim_set_hl(0, "@lsp.typemod.class.definition.cpp", { fg = "#82aaff" })
+    vim.api.nvim_set_hl(0, "@boolean.cpp", { fg = "#b384d2" })
+    vim.api.nvim_set_hl(0, "@character.cpp", { fg = "#c3e88d" })
+    vim.api.nvim_set_hl(0, "@lsp.typemod.property.classScope.cpp", { fg = "#eeffff" })
+    vim.api.nvim_set_hl(0, "@constant", { fg = "#f78c6c" })
+    vim.api.nvim_set_hl(0, "@lsp.typemod.class.deduced.cpp", { fg = "#b384d2" })
   end,
 }
