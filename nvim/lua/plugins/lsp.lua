@@ -17,6 +17,12 @@ return {
                 rangeVariableTypes = false, -- Disable inlay hints for range variable types
               },
             },
+            clangd = {
+              cmd = {
+                "clangd",
+                "--fallback-style=webkit",
+              },
+            },
           },
         },
       },

@@ -9,3 +9,6 @@ vim.opt.expandtab = true -- Use spaces instead of tabs
 
 -- LSP
 vim.update_in_insert = true
+
+-- Extras
+vim.opt.list = false
