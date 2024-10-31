@@ -25,6 +25,8 @@ return {
       -- Override colorscheme colors
       custom_colors = function(colors)
         colors.editor.bg = "#1e1e1e"
+        colors.editor.selection = "#323232"
+        colors.editor.accent = "#82aaff"
       end,
 
       -- Override UI elements colors
