@@ -1,0 +1,70 @@
+{
+    "window.titleBarStyle": "custom",
+    "zig.path": "/home/okerbs/.config/Code/User/globalStorage/ziglang.vscode-zig/zig_install/zig",
+    "zig.zls.path": "/home/okerbs/.config/Code/User/globalStorage/ziglang.vscode-zig/zls_install/zls",
+    "zig.initialSetupDone": true,
+    "editor.tabSize": 4,       
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.fontSize": 17,
+    "editor.fontFamily": "'JetBrainsMono Nerd Font', 'monospace', monospace",
+    "editor.fontWeight": "500",
+    "editor.inlayHints.enabled": "off",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "editor.tokenColorCustomizations": {
+        "[Material Theme Darker High Contrast]": {
+            "semanticHighlighting": true,
+            "textMateRules": [
+                {
+                    "scope": ["keyword", "keyword.control", "storage.modifier"],
+                    "settings": {
+                        "foreground": "#C792EA",
+                        "fontStyle": "",
+                    }
+                },
+                {
+                    "scope": ["variable.parameter"],
+                    "settings": {
+                        "foreground": "#F78C6C",
+                        "fontStyle": "",
+                    }
+                },
+                {
+                    "scope": ["constant.character.escape"],
+                    "settings": {
+                        "foreground": "#C3E88D",
+                    }
+                },
+                {
+                    "scope": ["meta.block", "punctuation.separator"],
+                    "settings": {
+                        "foreground": "#EEFFFF",
+                    }
+                },
+                {
+                    "scope": [
+                        "keyword.operator.arithmetic", 
+                        "keyword.operator.assignment", 
+                        "keyword.operator.logical", 
+                        "keyword.other",
+                        "storage.modifier",
+                        "punctuation",
+                    ],
+                    "settings": {
+                        "foreground": "#89DDFF",
+                    }
+                },
+                {
+                    "scope": [
+                    ],
+                    "settings": {
+                        "foreground": "#82AAFF",
+                    }
+                }
+            ]
+        }
+    },
+    "explorer.confirmDelete": false,
+    "git.autofetch": true
+}
