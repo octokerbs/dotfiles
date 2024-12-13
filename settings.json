@@ -1,70 +1,117 @@
 {
     "window.titleBarStyle": "custom",
-    "zig.path": "/home/okerbs/.config/Code/User/globalStorage/ziglang.vscode-zig/zig_install/zig",
-    "zig.zls.path": "/home/okerbs/.config/Code/User/globalStorage/ziglang.vscode-zig/zls_install/zls",
-    "zig.initialSetupDone": true,
-    "editor.tabSize": 4,       
+    "editor.tabSize": 8,       
     "editor.insertSpaces": true,
     "editor.detectIndentation": false,
-    "editor.fontSize": 17,
+    "editor.fontSize": 15,
     "editor.fontFamily": "'JetBrainsMono Nerd Font', 'monospace', monospace",
-    "editor.fontWeight": "500",
+    "editor.fontWeight": "400",
+    "editor.bracketPairColorization.enabled": false,
     "editor.inlayHints.enabled": "off",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "Material Theme Darker High Contrast",
     "editor.tokenColorCustomizations": {
         "[Material Theme Darker High Contrast]": {
-            "semanticHighlighting": true,
             "textMateRules": [
                 {
-                    "scope": ["keyword", "keyword.control", "storage.modifier"],
-                    "settings": {
-                        "foreground": "#C792EA",
-                        "fontStyle": "",
-                    }
+                        "scope": [
+                                "variable",
+                        ],
+                        "settings": {
+                            "foreground": "#EEFFFF",
+                            "fontStyle": "",
+                        }
                 },
                 {
-                    "scope": ["variable.parameter"],
-                    "settings": {
-                        "foreground": "#F78C6C",
-                        "fontStyle": "",
-                    }
+                        "scope": [
+                        ],
+                        "settings": {
+                            "foreground": "#CAC8CB",
+                            "fontStyle": "",
+                        }
                 },
                 {
-                    "scope": ["constant.character.escape"],
-                    "settings": {
-                        "foreground": "#C3E88D",
-                    }
+                        "scope": [
+                        ],
+                        "settings": {
+                            "foreground": "#1E1E1E",
+                            "fontStyle": "",
+                        }
                 },
                 {
-                    "scope": ["meta.block", "punctuation.separator"],
-                    "settings": {
-                        "foreground": "#EEFFFF",
-                    }
+                        "scope": [
+                        ],
+                        "settings": {
+                            "foreground": "#FF5242",
+                            "fontStyle": "",
+                        }
                 },
                 {
-                    "scope": [
-                        "keyword.operator.arithmetic", 
-                        "keyword.operator.assignment", 
-                        "keyword.operator.logical", 
-                        "keyword.other",
-                        "storage.modifier",
-                        "punctuation",
-                    ],
-                    "settings": {
-                        "foreground": "#89DDFF",
-                    }
+                        "scope": [
+                        ],
+                        "settings": {
+                            "foreground": "#82AAFF",
+                            "fontStyle": "",
+                        }
                 },
                 {
-                    "scope": [
-                    ],
-                    "settings": {
-                        "foreground": "#82AAFF",
-                    }
-                }
-            ]
+                        "scope": [
+                                "keyword.operator"
+                        ],
+                        "settings": {
+                            "foreground": "#89DDFF",
+                            "fontStyle": "",
+                        }
+                },
+                {
+                        "scope": [
+                                "support.type",
+                                "entity.name.type",
+                                "entity.name.import",
+                        ],
+                        "settings": {
+                            "foreground": "#C3E88D",
+                            "fontStyle": "",
+                        }
+                },
+                {
+                        "scope": [
+                                "entity.name.namespace",
+                        ],
+                        "settings": {
+                            "foreground": "#F9CB5E",
+                            "fontStyle": "",
+                        }
+                },
+                {
+                        "scope": [
+                                "keyword",
+                                "keyword.control",
+                                "support.constant"
+                        ],
+                        "settings": {
+                                "foreground": "#C792EA",
+                                "fontStyle": "",
+                        }
+                },
+                {
+                        "scope": [
+                                "variable.parameter",
+                                "variable.other.constant",
+                        ],
+                        "settings": {
+                            "foreground": "#F78C6C",
+                            "fontStyle": "",
+                        }
+                },
+            ],
         }
     },
+    "editor.lineNumbers": "relative",
     "explorer.confirmDelete": false,
-    "git.autofetch": true
+    "git.autofetch": true,
+    "gopls": {
+        "ui.semanticTokens": true
+    }
+
 }
