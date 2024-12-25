@@ -7,9 +7,7 @@
     "editor.fontFamily": "'JetBrainsMono Nerd Font', 'monospace', monospace",
     "editor.fontWeight": "400",
     "editor.bracketPairColorization.enabled": false,
-    "editor.inlayHints.enabled": "off",
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Material Theme Darker High Contrast",
+"editor.inlayHints.enabled": "off",
     "editor.tokenColorCustomizations": {
         "[Material Theme Darker High Contrast]": {
             "textMateRules": [
@@ -112,6 +110,13 @@
     "git.autofetch": true,
     "gopls": {
         "ui.semanticTokens": true
-    }
+},
+"workbench.iconTheme": "material-icon-theme",
+"workbench.colorTheme": "Material Theme Darker High Contrast",
+"prettier.tabWidth": 8,
+"editor.formatOnSave": true,
+"[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
 
 }
