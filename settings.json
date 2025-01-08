@@ -1,108 +1,104 @@
 {
     "window.titleBarStyle": "custom",
-    "editor.tabSize": 8,       
     "editor.insertSpaces": true,
     "editor.detectIndentation": false,
     "editor.fontSize": 15,
     "editor.fontFamily": "'JetBrainsMono Nerd Font', 'monospace', monospace",
     "editor.fontWeight": "400",
     "editor.bracketPairColorization.enabled": false,
-"editor.inlayHints.enabled": "off",
+    "editor.inlayHints.enabled": "off",
     "editor.tokenColorCustomizations": {
         "[Material Theme Darker High Contrast]": {
             "textMateRules": [
                 {
-                        "scope": [
-                                "variable",
-                        ],
-                        "settings": {
-                            "foreground": "#EEFFFF",
-                            "fontStyle": "",
-                        }
+                    "scope": ["variable"],
+                    "settings": {
+                        "foreground": "#FEF6D0",
+                        "fontStyle": ""
+                    }
                 },
                 {
-                        "scope": [
-                        ],
-                        "settings": {
-                            "foreground": "#CAC8CB",
-                            "fontStyle": "",
-                        }
+                    "scope": [
+                        "punctuation",
+                        "punctuation.definition.tag",
+                        "keyword.operator",
+                        "keyword.assignment",
+                        "keyword.operator.arithmetic",
+                        "keyword.operator.assignment",
+                        "keyword.operator.logical",
+                        "meta.block"
+                    ],
+                    "settings": {
+                        "foreground": "#CAC8CB",
+                        "fontStyle": ""
+                    }
                 },
                 {
-                        "scope": [
-                        ],
-                        "settings": {
-                            "foreground": "#1E1E1E",
-                            "fontStyle": "",
-                        }
+                    "scope": [],
+                    "settings": {
+                        "foreground": "#1E1E1E",
+                        "fontStyle": ""
+                    }
                 },
                 {
-                        "scope": [
-                        ],
-                        "settings": {
-                            "foreground": "#FF5242",
-                            "fontStyle": "",
-                        }
+                    "scope": [
+                        "keyword",
+                        "keyword.control",
+                        "keyword.operator.new"
+                    ],
+                    "settings": {
+                        "foreground": "#FF5242",
+                        "fontStyle": ""
+                    }
                 },
                 {
-                        "scope": [
-                        ],
-                        "settings": {
-                            "foreground": "#82AAFF",
-                            "fontStyle": "",
-                        }
+                    "scope": ["function"],
+                    "settings": {
+                        "foreground": "#82AAFF",
+                        "fontStyle": ""
+                    }
                 },
                 {
-                        "scope": [
-                                "keyword.operator"
-                        ],
-                        "settings": {
-                            "foreground": "#89DDFF",
-                            "fontStyle": "",
-                        }
+                    "scope": [],
+                    "settings": {
+                        "foreground": "#89DDFF",
+                        "fontStyle": ""
+                    }
                 },
                 {
-                        "scope": [
-                                "support.type",
-                                "entity.name.type",
-                                "entity.name.import",
-                        ],
-                        "settings": {
-                            "foreground": "#C3E88D",
-                            "fontStyle": "",
-                        }
+                    "scope": ["string", "entity.name.namespace"],
+                    "settings": {
+                        "foreground": "#C3E88D",
+                        "fontStyle": ""
+                    }
                 },
                 {
-                        "scope": [
-                                "entity.name.namespace",
-                        ],
-                        "settings": {
-                            "foreground": "#F9CB5E",
-                            "fontStyle": "",
-                        }
+                    "scope": [],
+                    "settings": {
+                        "foreground": "#F9CB5E",
+                        "fontStyle": ""
+                    }
                 },
                 {
-                        "scope": [
-                                "keyword",
-                                "keyword.control",
-                                "support.constant"
-                        ],
-                        "settings": {
-                                "foreground": "#C792EA",
-                                "fontStyle": "",
-                        }
+                    "scope": ["storage.type"],
+                    "settings": {
+                        "foreground": "#C792EA",
+                        "fontStyle": ""
+                    }
                 },
                 {
-                        "scope": [
-                                "variable.parameter",
-                                "variable.other.constant",
-                        ],
-                        "settings": {
-                            "foreground": "#F78C6C",
-                            "fontStyle": "",
-                        }
-                },
-            ],
+                    "scope": [
+                        "support.constant",
+                        "variable.parameter",
+                        "variable.other.constant",
+                        "constant.language.boolean"
+                    ],
+                    "settings": {
+                        "foreground": "#F78C6C",
+                        "fontStyle": ""
+                    }
+                }
+            ]
         }
     },
     "editor.lineNumbers": "relative",
@@ -110,13 +106,18 @@
     "git.autofetch": true,
     "gopls": {
         "ui.semanticTokens": true
-},
-"workbench.iconTheme": "material-icon-theme",
-"workbench.colorTheme": "Material Theme Darker High Contrast",
-"prettier.tabWidth": 8,
-"editor.formatOnSave": true,
-"[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-},
-
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "prettier.tabWidth": 4,
+    "editor.formatOnSave": true,
+    "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDragAndDrop": false,
+    "git.confirmSync": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.tabSize": 8
 }
