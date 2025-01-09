@@ -11,7 +11,8 @@
         "[Material Theme Darker High Contrast]": {
             "textMateRules": [
                 {
-                    "scope": ["variable"],
+                    "scope": ["variable",
+                "entity.name.variable"],
                     "settings": {
                         "foreground": "#FEF6D0",
                         "fontStyle": ""
@@ -21,11 +22,6 @@
                     "scope": [
                         "punctuation",
                         "punctuation.definition.tag",
-                        "keyword.operator",
-                        "keyword.assignment",
-                        "keyword.operator.arithmetic",
-                        "keyword.operator.assignment",
-                        "keyword.operator.logical",
                         "meta.block"
                     ],
                     "settings": {
@@ -52,16 +48,15 @@
                     }
                 },
                 {
-                    "scope": ["function"],
+                    "scope": [
+                        "function",
+                        "keyword.operator",
+                        "keyword.assignment",
+                        "keyword.operator.arithmetic",
+                        "keyword.operator.assignment",
+                        "keyword.operator.logical",],
                     "settings": {
                         "foreground": "#82AAFF",
-                        "fontStyle": ""
-                    }
-                },
-                {
-                    "scope": [],
-                    "settings": {
-                        "foreground": "#89DDFF",
                         "fontStyle": ""
                     }
                 },
@@ -73,7 +68,7 @@
                     }
                 },
                 {
-                    "scope": [],
+                    "scope": ["entity.name.type.class", "class", "type"],
                     "settings": {
                         "foreground": "#F9CB5E",
                         "fontStyle": ""
@@ -119,5 +114,6 @@
     "explorer.confirmDragAndDrop": false,
     "git.confirmSync": false,
     "javascript.updateImportsOnFileMove.enabled": "always",
-    "editor.tabSize": 8
+    "editor.tabSize": 8,
+    "git.openRepositoryInParentFolders": "always"
 }
