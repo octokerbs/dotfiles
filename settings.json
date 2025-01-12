@@ -11,8 +11,7 @@
         "[Material Theme Darker High Contrast]": {
             "textMateRules": [
                 {
-                    "scope": ["variable",
-                "entity.name.variable"],
+                    "scope": ["variable", "entity.name.variable"],
                     "settings": {
                         "foreground": "#FEF6D0",
                         "fontStyle": ""
@@ -54,7 +53,8 @@
                         "keyword.assignment",
                         "keyword.operator.arithmetic",
                         "keyword.operator.assignment",
-                        "keyword.operator.logical",],
+                        "keyword.operator.logical"
+                    ],
                     "settings": {
                         "foreground": "#82AAFF",
                         "fontStyle": ""
@@ -115,5 +115,15 @@
     "git.confirmSync": false,
     "javascript.updateImportsOnFileMove.enabled": "always",
     "editor.tabSize": 8,
-    "git.openRepositoryInParentFolders": "always"
+    "git.openRepositoryInParentFolders": "always",
+    "haskell.manageHLS": "GHCup",
+    "editor.semanticHighlighting.enabled": true,
+    "haskell": {
+        "plugin": {
+            "semanticTokens": {
+                "config": { },
+                "globalOn": true
+            },
+        },
+    },
 }
