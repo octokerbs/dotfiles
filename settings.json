@@ -2,11 +2,10 @@
     "window.titleBarStyle": "custom",
     "editor.insertSpaces": true,
     "editor.detectIndentation": false,
-    "editor.fontSize": 15,
+    "editor.fontSize": 14,
     "editor.fontFamily": "'JetBrainsMono Nerd Font', 'monospace', monospace",
     "editor.fontWeight": "400",
     "editor.bracketPairColorization.enabled": false,
-    "editor.inlayHints.enabled": "off",
     "editor.tokenColorCustomizations": {
         "[Material Theme Darker High Contrast]": {
             "textMateRules": [
@@ -19,9 +18,15 @@
                 },
                 {
                     "scope": [
-                        "punctuation",
                         "punctuation.definition.tag",
-                        "meta.block"
+                        "meta.block",                        
+                  "punctuation",
+"keyword.operator",
+                        "keyword.assignment",
+                        "keyword.operator.arithmetic",
+                        "keyword.operator.assignment",
+                        "keyword.operator.logical"
+                        
                     ],
                     "settings": {
                         "foreground": "#CAC8CB",
@@ -39,7 +44,8 @@
                     "scope": [
                         "keyword",
                         "keyword.control",
-                        "keyword.operator.new"
+                        "keyword.operator.new",
+                        "keyword.other"
                     ],
                     "settings": {
                         "foreground": "#FF5242",
@@ -49,35 +55,52 @@
                 {
                     "scope": [
                         "function",
-                        "keyword.operator",
-                        "keyword.assignment",
-                        "keyword.operator.arithmetic",
-                        "keyword.operator.assignment",
-                        "keyword.operator.logical"
+
                     ],
                     "settings": {
-                        "foreground": "#82AAFF",
+                        "foreground": "#89b4fa",
                         "fontStyle": ""
                     }
                 },
                 {
-                    "scope": ["string", "entity.name.namespace"],
+                    "scope": [
+                        
+
+                    ],
+                    "settings": {
+                        "foreground": "#89DDFF",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": [
+                        "string", 
+                        "entity.name.namespace", 
+                        "comment",
+                        "comment punctuation.definition.comment"
+                ],
+
                     "settings": {
                         "foreground": "#C3E88D",
                         "fontStyle": ""
                     }
                 },
                 {
-                    "scope": ["entity.name.type.class", "class", "type"],
+                    "scope": ["entity.name.type.class", "class", "type",
+                       
+                
+                ],
                     "settings": {
                         "foreground": "#F9CB5E",
                         "fontStyle": ""
                     }
                 },
                 {
-                    "scope": ["storage.type"],
+                    "scope": ["storage.type",
+                        
+                ],
                     "settings": {
-                        "foreground": "#C792EA",
+                        "foreground": "#f5c2e7",
                         "fontStyle": ""
                     }
                 },
@@ -104,7 +127,7 @@
     },
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "Material Theme Darker High Contrast",
-    "prettier.tabWidth": 4,
+    "prettier.tabWidth": 8,
     "editor.formatOnSave": true,
     "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
     "[typescriptreact]": {
