@@ -1,152 +1,156 @@
 {
-    "window.titleBarStyle": "custom",
-    "editor.insertSpaces": true,
-    "editor.detectIndentation": false,
-    "editor.fontSize": 14,
-    "editor.fontFamily": "'JetBrainsMono Nerd Font', 'monospace', monospace",
-    "editor.fontWeight": "400",
-    "editor.bracketPairColorization.enabled": false,
-    "editor.tokenColorCustomizations": {
-        "[Material Theme Darker High Contrast]": {
-            "textMateRules": [
-                {
-                    "scope": ["variable", "entity.name.variable"],
-                    "settings": {
-                        "foreground": "#FEF6D0",
-                        "fontStyle": ""
-                    }
-                },
-                {
-                    "scope": [
-                        "punctuation.definition.tag",
-                        "meta.block",                        
-                  "punctuation",
-"keyword.operator",
-                        "keyword.assignment",
-                        "keyword.operator.arithmetic",
-                        "keyword.operator.assignment",
-                        "keyword.operator.logical"
-                        
-                    ],
-                    "settings": {
-                        "foreground": "#CAC8CB",
-                        "fontStyle": ""
-                    }
-                },
-                {
-                    "scope": [],
-                    "settings": {
-                        "foreground": "#1E1E1E",
-                        "fontStyle": ""
-                    }
-                },
-                {
-                    "scope": [
-                        "keyword",
-                        "keyword.control",
-                        "keyword.operator.new",
-                        "keyword.other"
-                    ],
-                    "settings": {
-                        "foreground": "#FF5242",
-                        "fontStyle": ""
-                    }
-                },
-                {
-                    "scope": [
-                        "function",
-
-                    ],
-                    "settings": {
-                        "foreground": "#89b4fa",
-                        "fontStyle": ""
-                    }
-                },
-                {
-                    "scope": [
-                        
-
-                    ],
-                    "settings": {
-                        "foreground": "#89DDFF",
-                        "fontStyle": ""
-                    }
-                },
-                {
-                    "scope": [
-                        "string", 
-                        "entity.name.namespace", 
-                        "comment",
-                        "comment punctuation.definition.comment"
-                ],
-
-                    "settings": {
-                        "foreground": "#C3E88D",
-                        "fontStyle": ""
-                    }
-                },
-                {
-                    "scope": ["entity.name.type.class", "class", "type",
-                       
-                
-                ],
-                    "settings": {
-                        "foreground": "#F9CB5E",
-                        "fontStyle": ""
-                    }
-                },
-                {
-                    "scope": ["storage.type",
-                        
-                ],
-                    "settings": {
-                        "foreground": "#f5c2e7",
-                        "fontStyle": ""
-                    }
-                },
-                {
-                    "scope": [
-                        "support.constant",
-                        "variable.parameter",
-                        "variable.other.constant",
-                        "constant.language.boolean"
-                    ],
-                    "settings": {
-                        "foreground": "#F78C6C",
-                        "fontStyle": ""
-                    }
+        "window.titleBarStyle": "custom",
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": false,
+        "editor.fontSize": 14,
+        "editor.fontFamily": "'JetBrainsMono Nerd Font', 'monospace', monospace",
+        "editor.fontWeight": "400",
+        "editor.bracketPairColorization.enabled": false,
+        "editor.tokenColorCustomizations": {
+                "[Material Theme Darker High Contrast]": {
+                        "textMateRules": [
+                                {
+                                        "scope": [
+                                                "variable",
+                                                "entity.name.variable"
+                                        ],
+                                        "settings": {
+                                                "foreground": "#FEF6D0",
+                                                "fontStyle": ""
+                                        }
+                                },
+                                {
+                                        "scope": [
+                                                "punctuation.definition.tag",
+                                                "meta.block",
+                                                "punctuation",
+                                                "keyword.operator",
+                                                "keyword.assignment",
+                                                "keyword.operator.arithmetic",
+                                                "keyword.operator.assignment",
+                                                "keyword.operator.logical"
+                                        ],
+                                        "settings": {
+                                                "foreground": "#CAC8CB",
+                                                "fontStyle": ""
+                                        }
+                                },
+                                {
+                                        "scope": [],
+                                        "settings": {
+                                                "foreground": "#1E1E1E",
+                                                "fontStyle": ""
+                                        }
+                                },
+                                {
+                                        "scope": [
+                                                "keyword",
+                                                "keyword.control",
+                                                "keyword.operator.new",
+                                                "keyword.other"
+                                        ],
+                                        "settings": {
+                                                "foreground": "#FF5242",
+                                                "fontStyle": ""
+                                        }
+                                },
+                                {
+                                        "scope": [
+                                                "function",
+                                        ],
+                                        "settings": {
+                                                "foreground": "#89b4fa",
+                                                "fontStyle": ""
+                                        }
+                                },
+                                {
+                                        "scope": [],
+                                        "settings": {
+                                                "foreground": "#89DDFF",
+                                                "fontStyle": ""
+                                        }
+                                },
+                                {
+                                        "scope": [
+                                                "string",
+                                                "entity.name.namespace",
+                                                "comment",
+                                                "comment punctuation.definition.comment"
+                                        ],
+                                        "settings": {
+                                                "foreground": "#C3E88D",
+                                                "fontStyle": ""
+                                        }
+                                },
+                                {
+                                        "scope": [
+                                                "entity.name.type.class",
+                                                "class",
+                                                "type",
+                                        ],
+                                        "settings": {
+                                                "foreground": "#F9CB5E",
+                                                "fontStyle": ""
+                                        }
+                                },
+                                {
+                                        "scope": [
+                                                "storage.type",
+                                        ],
+                                        "settings": {
+                                                "foreground": "#f5c2e7",
+                                                "fontStyle": ""
+                                        }
+                                },
+                                {
+                                        "scope": [
+                                                "support.constant",
+                                                "variable.parameter",
+                                                "variable.other.constant",
+                                                "constant.language.boolean"
+                                        ],
+                                        "settings": {
+                                                "foreground": "#F78C6C",
+                                                "fontStyle": ""
+                                        }
+                                }
+                        ]
                 }
-            ]
-        }
-    },
-    "editor.lineNumbers": "relative",
-    "explorer.confirmDelete": false,
-    "git.autofetch": true,
-    "gopls": {
-        "ui.semanticTokens": true
-    },
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Material Theme Darker High Contrast",
-    "prettier.tabWidth": 8,
-    "editor.formatOnSave": true,
-    "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "explorer.confirmDragAndDrop": false,
-    "git.confirmSync": false,
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "editor.tabSize": 8,
-    "git.openRepositoryInParentFolders": "always",
-    "haskell.manageHLS": "GHCup",
-    "editor.semanticHighlighting.enabled": true,
-    "haskell": {
-        "plugin": {
-            "semanticTokens": {
-                "config": { },
-                "globalOn": true
-            },
         },
-    },
+        "editor.lineNumbers": "relative",
+        "explorer.confirmDelete": false,
+        "git.autofetch": true,
+        "gopls": {
+                "ui.semanticTokens": true
+        },
+        "workbench.iconTheme": "material-icon-theme",
+        "workbench.colorTheme": "Material Theme Darker High Contrast",
+        "prettier.tabWidth": 8,
+        "editor.formatOnSave": true,
+        "[typescript]": {
+                "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[typescriptreact]": {
+                "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "typescript.updateImportsOnFileMove.enabled": "always",
+        "explorer.confirmDragAndDrop": false,
+        "git.confirmSync": false,
+        "javascript.updateImportsOnFileMove.enabled": "always",
+        "editor.tabSize": 8,
+        "git.openRepositoryInParentFolders": "always",
+        "haskell.manageHLS": "GHCup",
+        "editor.semanticHighlighting.enabled": true,
+        "haskell": {
+                "plugin": {
+                        "semanticTokens": {
+                                "config": {},
+                                "globalOn": true
+                        },
+                },
+        },
+        "files.associations": {
+                "*.pl": "prolog"
+        },
+        "C_Cpp.default.compilerPath": "C:\\msys64\\ucrt64\\bin\\g++.exe",
 }
