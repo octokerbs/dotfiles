@@ -5,7 +5,11 @@
         "editor.fontSize": 14,
         "editor.fontFamily": "'JetBrainsMono Nerd Font', 'monospace', monospace",
         "editor.fontWeight": "400",
+        "editor.formatOnSave": true,
         "editor.bracketPairColorization.enabled": false,
+        "editor.tabSize": 8,
+        "editor.semanticHighlighting.enabled": true,
+        "editor.lineNumbers": "relative",
         "editor.tokenColorCustomizations": {
                 "[Material Theme Darker High Contrast]": {
                         "textMateRules": [
@@ -117,16 +121,15 @@
                         ]
                 }
         },
-        "editor.lineNumbers": "relative",
         "explorer.confirmDelete": false,
         "git.autofetch": true,
         "gopls": {
-                "ui.semanticTokens": true
+                "ui.semanticTokens": true,
+                "ui.completion.usePlaceholders": true
         },
         "workbench.iconTheme": "material-icon-theme",
         "workbench.colorTheme": "Material Theme Darker High Contrast",
         "prettier.tabWidth": 8,
-        "editor.formatOnSave": true,
         "[typescript]": {
                 "editor.defaultFormatter": "esbenp.prettier-vscode"
         },
@@ -137,10 +140,8 @@
         "explorer.confirmDragAndDrop": false,
         "git.confirmSync": false,
         "javascript.updateImportsOnFileMove.enabled": "always",
-        "editor.tabSize": 8,
         "git.openRepositoryInParentFolders": "always",
         "haskell.manageHLS": "GHCup",
-        "editor.semanticHighlighting.enabled": true,
         "haskell": {
                 "plugin": {
                         "semanticTokens": {
@@ -152,5 +153,4 @@
         "files.associations": {
                 "*.pl": "prolog"
         },
-        "C_Cpp.default.compilerPath": "C:\\msys64\\ucrt64\\bin\\g++.exe",
 }
