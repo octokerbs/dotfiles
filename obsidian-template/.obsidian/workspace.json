@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1ecf985507bc1784",
+        "id": "8881732b1dd7db40",
         "type": "tabs",
         "children": [
           {
-            "id": "d94766dff9c71b2c",
+            "id": "502f5904698c3d4c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Regresion Lineal.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Regresion Lineal"
             }
           }
         ]
@@ -158,14 +162,21 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "tldraw:Create new tldrawing": false
     }
   },
-  "active": "d94766dff9c71b2c",
+  "active": "502f5904698c3d4c",
   "lastOpenFiles": [
+    "tldraw/Tldraw 2025-04-12 2.03AM.md",
+    "Regresion Lineal.md",
+    "tldraw",
+    "Clase02/02 - numpy_linreg_percsimp_hl.pdf",
+    "Gradientes.md",
+    "Cuadrados Minimos.md",
+    "Regresion lineal.md",
     "tldraw/Tldraw 2025-03-03 10.00AM.md",
     "Hola.md",
-    "tldraw",
     "Excalidraw/Drawing 2025-03-03 09.46.54.excalidraw.md",
     "Excalidraw/Drawing 2025-03-03 09.45.08.excalidraw.md",
     "Excalidraw/Drawing 2025-03-03 09.43.55.excalidraw.md",

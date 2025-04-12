@@ -1,4 +1,6 @@
 {
-  "showInlineTitle": false,
-  "promptDelete": false
+  "showInlineTitle": true,
+  "promptDelete": false,
+  "spellcheck": false,
+  "vimMode": true
 }
