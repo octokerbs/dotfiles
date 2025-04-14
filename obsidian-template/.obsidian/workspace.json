@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8881732b1dd7db40",
+        "id": "d46e400209c94ec7",
         "type": "tabs",
         "children": [
           {
-            "id": "502f5904698c3d4c",
+            "id": "614d3242591e8634",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algoritmo AFND-AFD.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Algoritmo AFND-AFD"
+              "title": "New tab"
             }
           }
         ]
@@ -163,17 +159,46 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "tldraw:Create new tldrawing": false
+      "tldraw:Create new tldrawing": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "502f5904698c3d4c",
+  "active": "4458aa58a63ab8de",
   "lastOpenFiles": [
-    "Algoritmo AFND-AFD.tex",
+    "assets/Drawing 2025-04-14 11.56.55.excalidraw.md",
+    "aaa.md",
+    "assets",
+    "Excalidraw/Drawing 2025-04-14 11.53.17.excalidraw.md",
     "Algoritmo AFND-AFD.md",
+    "Excalidraw",
+    "tldraw/Tldraw 2025-04-14 11.51AM.md",
+    "Algoritmo AFND-AFD.pdf",
+    "tldraw/Tldraw 2025-04-12 8.49AM.md",
+    "tldraw/assets/icons/zoom-out.svg",
+    "tldraw/assets/icons/zoom-in.svg",
+    "tldraw/assets/icons/warning-triangle.svg",
+    "tldraw/assets/icons/vertical-align-start.svg",
+    "tldraw/assets/icons/vertical-align-middle.svg",
+    "tldraw/assets/icons/vertical-align-end.svg",
+    "tldraw/assets/icons/unlock.svg",
+    "tldraw/assets/icons/ungroup.svg",
+    "tldraw/assets/icons/undo.svg",
+    "tldraw/assets/icons/twitter.svg",
+    "tldraw/assets/icons",
+    "tldraw/assets/fonts/IBMPlexSerif-Medium.woff2",
+    "tldraw/assets/fonts/IBMPlexSans-Medium.woff2",
+    "tldraw/assets/fonts/IBMPlexMono-Medium.woff2",
+    "tldraw/assets/fonts",
+    "tldraw/assets",
+    "tldraw",
+    "Excalidraw/Drawing 2025-04-12 08.33.13.excalidraw.md",
+    "Excalidraw/Drawing 2025-04-12 08.31.44.excalidraw.md",
+    "Excalidraw/Drawing 2025-04-12 08.29.42.excalidraw.md",
+    "tldraw/Tldraw 2025-04-12 8.15AM (1).md",
+    "tldraw/Tldraw 2025-04-12 8.15AM (0).md",
+    "tldraw/Tldraw 2025-04-12 8.15AM.md",
     "tldraw/Tldraw 2025-04-12 2.03AM.md",
     "Regresion Lineal.md",
-    "tldraw",
-    "Clase02/02 - numpy_linreg_percsimp_hl.pdf",
     "Gradientes.md",
     "Cuadrados Minimos.md",
     "Regresion lineal.md",
@@ -182,8 +207,6 @@
     "Excalidraw/Drawing 2025-03-03 09.46.54.excalidraw.md",
     "Excalidraw/Drawing 2025-03-03 09.45.08.excalidraw.md",
     "Excalidraw/Drawing 2025-03-03 09.43.55.excalidraw.md",
-    "Excalidraw/Drawing 2025-03-03 09.40.52.excalidraw.md",
-    "Excalidraw",
-    "aaa.css"
+    "Excalidraw/Drawing 2025-03-03 09.40.52.excalidraw.md"
   ]
 }
