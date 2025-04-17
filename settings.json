@@ -1,9 +1,5 @@
 {
     "workbench.iconTheme": "material-icon-theme",
-    "gopls": {
-        "ui.semanticTokens": true,
-        "ui.completion.usePlaceholders": true
-    },
     "editor.semanticHighlighting.enabled": true,
     "editor.fontSize": 14,
     "editor.fontFamily": "'JetBrainsMono Nerd Font', 'monospace', monospace",
@@ -15,5 +11,9 @@
     "editor.minimap.size": "fill",
     "editor.wordWrap": "on",
     "explorer.confirmDelete": false,
-    "workbench.colorTheme": "One Dark Pro",
+    "workbench.colorTheme": "Lego Dark Theme",
+    "gopls": {
+        "ui.semanticTokens": true,
+        "ui.completion.usePlaceholders": true
+    },
 }
