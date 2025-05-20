@@ -1,8 +1,8 @@
 {
-  "cssTheme": "Blue Topaz",
+  "cssTheme": "Minimal",
   "accentColor": "#89b4fa",
   "interfaceFontFamily": "",
   "baseFontSize": 16,
   "textFontFamily": "Helvetica",
-  "theme": "moonstone"
+  "theme": "obsidian"
 }
