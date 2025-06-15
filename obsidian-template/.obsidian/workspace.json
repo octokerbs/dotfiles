@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Learning/Hiperplano.md",
+                "file": "Java/Static.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hiperplano"
+              "title": "Static"
             }
           }
         ]
@@ -170,22 +170,22 @@
   },
   "active": "3e169d61be676b5c",
   "lastOpenFiles": [
-    "Deep Learning/Pipeline.md",
-    "Deep Learning/Hopfield.md",
-    "Deep Learning/Hiperplano.md",
-    "Deep Learning/Deep Belief Networks.md",
-    "Deep Learning/assets/Tldraw 2025-05-20 4.54AM.md",
-    "README.md",
-    "Deep Learning/Phase-Functioned-NN.md",
-    "Deep Learning/Mean Squared Error.md",
-    "Deep Learning/Machine Learning.md",
-    "Deep Learning/Boltzmann.md",
-    "Deep Learning/Autoencoders.md",
-    "aaa",
-    "aaa",
     "Java/Pipeline.md",
     "Java/HashMap.md",
     "Java/Generic Type.md",
+    "Deep Learning/Phase-Functioned-NN.md",
+    "Deep Learning/Mean Squared Error.md",
+    "Deep Learning/Autoencoders.md",
+    "Deep Learning/Boltzmann.md",
+    "Deep Learning/Deep Belief Networks.md",
+    "Deep Learning/Hiperplano.md",
+    "Deep Learning/Machine Learning.md",
+    "Deep Learning/Pipeline.md",
+    "Deep Learning/Hopfield.md",
+    "Deep Learning/assets/Tldraw 2025-05-20 4.54AM.md",
+    "README.md",
+    "aaa",
+    "aaa",
     "Redes/Guía 4.md",
     "Redes/Guia 5.md",
     "Redes/04-Capa de Transporte.md",
