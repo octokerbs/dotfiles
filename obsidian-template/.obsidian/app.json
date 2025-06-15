@@ -1,7 +1,7 @@
 {
-  "showInlineTitle": false,
+  "showInlineTitle": true,
   "promptDelete": false,
-  "spellcheck": true,
+  "spellcheck": false,
   "vimMode": true,
   "pdfExportSettings": {
     "pageSize": "Letter",
