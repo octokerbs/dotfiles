@@ -17,22 +17,22 @@
         "order": 0
       },
       {
-        "rule": ".md",
-        "icon": "LiFileText",
+        "rule": "assets",
+        "icon": "LiFolderPlus",
         "for": "everything",
         "order": 1
       },
       {
-        "rule": "assets",
-        "icon": "LiFolderPlus",
-        "for": "everything",
-        "order": 2
-      },
-      {
-        "rule": ".",
+        "rule": "^(?!.*\\.md$).*",
         "icon": "LiFolderClosed",
         "for": "everything",
         "order": 3
+      },
+      {
+        "rule": ".md",
+        "icon": "LiFileText",
+        "for": "everything",
+        "order": 2
       }
     ],
     "extraMargin": {
@@ -47,7 +47,7 @@
     "iconInFrontmatterEnabled": false,
     "iconInFrontmatterFieldName": "icon",
     "iconColorInFrontmatterFieldName": "iconColor",
-    "iconsBackgroundCheckEnabled": false,
+    "iconsBackgroundCheckEnabled": true,
     "iconsInNotesEnabled": true,
     "iconsInLinksEnabled": true,
     "iconIdentifier": ":",

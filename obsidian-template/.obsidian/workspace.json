@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Static.md",
+                "file": "Java/Generic Type.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Static"
+              "title": "Generic Type"
             }
           }
         ]
@@ -170,20 +170,22 @@
   },
   "active": "3e169d61be676b5c",
   "lastOpenFiles": [
+    "Java/Generic Type.md",
+    "README.md",
+    "Articulation",
+    "Deep Learning/Hiperplano.md",
+    "Deep Learning/Deep Belief Networks.md",
+    "Deep Learning/Autoencoders.md",
+    "Java/Static.md",
     "Java/Pipeline.md",
     "Java/HashMap.md",
-    "Java/Generic Type.md",
     "Deep Learning/Phase-Functioned-NN.md",
     "Deep Learning/Mean Squared Error.md",
-    "Deep Learning/Autoencoders.md",
     "Deep Learning/Boltzmann.md",
-    "Deep Learning/Deep Belief Networks.md",
-    "Deep Learning/Hiperplano.md",
     "Deep Learning/Machine Learning.md",
     "Deep Learning/Pipeline.md",
     "Deep Learning/Hopfield.md",
     "Deep Learning/assets/Tldraw 2025-05-20 4.54AM.md",
-    "README.md",
     "aaa",
     "aaa",
     "Redes/Guía 4.md",
@@ -196,9 +198,7 @@
     "Redes/02-Capa de Enlace.md",
     "Redes/03-Capa de Red.md",
     "assets/Tldraw 2025-05-22 4.59PM.md",
-    "Java/Static.md",
     "assets",
-    "Untitled.md",
     "Redes",
     "Deep Learning/assets/Pasted image 20250522060539.png",
     "Deep Learning/assets/Pasted image 20250522060328.png",
@@ -214,7 +214,6 @@
     "Pasted image 20250519010252.png",
     "Deep Learning",
     "Chango",
-    "Docker",
-    "Java"
+    "Docker"
   ]
 }
