@@ -1,10 +1,6 @@
 [
   "obsidian-minimal-settings",
-  "obsidian-latex-suite",
+  "obsidian-style-settings",
   "quick-latex",
-  "better-export-pdf",
-  "tldraw",
-  "obsidian-icon-folder",
-  "highlightr-plugin",
-  "obsidian-style-settings"
+  "tldraw"
 ]

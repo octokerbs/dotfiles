@@ -1,9 +1,8 @@
 {
     "workbench.iconTheme": "material-icon-theme",
     "editor.semanticHighlighting.enabled": true,
-    "editor.fontSize": 13,
     "editor.fontFamily": "'JetBrainsMono Nerd Font', 'monospace', monospace",
-    "editor.fontWeight": "400",
+    "editor.fontWeight": "600",
     "editor.formatOnSave": true,
     "editor.lineNumbers": "relative",
     "git.confirmSync": false,
@@ -11,9 +10,12 @@
     "editor.minimap.size": "fill",
     "editor.wordWrap": "on",
     "explorer.confirmDelete": false,
-    "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
     "gopls": {
         "ui.semanticTokens": true,
         "ui.completion.usePlaceholders": true
     },
+    "workbench.colorTheme": "Lego Dark Theme",
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    }
 }
