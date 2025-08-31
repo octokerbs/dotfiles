@@ -10,12 +10,8 @@
     "editor.minimap.size": "fill",
     "editor.wordWrap": "on",
     "explorer.confirmDelete": false,
-    "gopls": {
-        "ui.semanticTokens": true,
-        "ui.completion.usePlaceholders": true
-    },
-    "workbench.colorTheme": "Lego Dark Theme",
     "editor.codeActionsOnSave": {
         "source.organizeImports": "explicit"
-    }
+    },
+    "git.openRepositoryInParentFolders": "always"
 }
