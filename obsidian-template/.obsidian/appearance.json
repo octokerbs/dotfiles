@@ -1,7 +1,7 @@
 {
   "cssTheme": "Minimal",
   "accentColor": "#89b4fa",
-  "baseFontSize": 15,
+  "baseFontSize": 16,
   "showViewHeader": false,
   "showRibbon": true,
   "theme": "moonstone"

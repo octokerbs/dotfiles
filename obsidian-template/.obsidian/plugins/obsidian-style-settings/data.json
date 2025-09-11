@@ -1,6 +1,8 @@
 {
   "minimal-style@@h1-l": true,
   "minimal-style@@h1-size": "1.6em",
-  "minimal-style@@h1-weight": 600,
-  "minimal-style@@h2-weight": 900
+  "minimal-style@@h1-weight": 900,
+  "minimal-style@@h2-weight": 900,
+  "minimal-style@@h2-size": "1.2em",
+  "minimal-style@@h1-variant": "normal"
 }
