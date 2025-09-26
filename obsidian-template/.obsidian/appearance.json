@@ -4,5 +4,10 @@
   "baseFontSize": 16,
   "showViewHeader": false,
   "showRibbon": true,
-  "theme": "moonstone"
+  "theme": "moonstone",
+  "enabledCssSnippets": [
+    "headings"
+  ],
+  "textFontFamily": "Times New Roman",
+  "monospaceFontFamily": "JetBrainsMono Nerd Font"
 }
