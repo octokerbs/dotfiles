@@ -206,6 +206,8 @@
         "tab.unfocusedActiveForeground": "#eeffff",
         "tab.unfocusedActiveModifiedBorder": "#c05a60",
         "tab.unfocusedInactiveModifiedBorder": "#904348",
+        "terminal.background": "#1a1a1a",
+        "terminal.foreground": "#d4d4d4",
         "terminal.ansiBlack": "#000000",
         "terminal.ansiBlue": "#82aaff",
         "terminal.ansiBrightBlack": "#4a4a4a",
@@ -234,5 +236,30 @@
         "titleBar.inactiveForeground": "#848484",
         "tree.indentGuidesStroke": "#424242",
         "widget.shadow": "#00000030"
-    }
+    },
+    "mssql.connectionGroups": [
+        {
+            "name": "ROOT",
+            "id": "93BB3A09-A721-4FFB-9739-1884B316A3E2"
+        }
+    ],
+    "mssql.connections": [
+        {
+            "authenticationType": "SqlLogin",
+            "connectTimeout": 30,
+            "applicationName": "vscode-mssql",
+            "applicationIntent": "ReadWrite",
+            "profileName": "AdventureWorks2017-Docker",
+            "server": "localhost",
+            "trustServerCertificate": true,
+            "user": "SA",
+            "password": "",
+            "savePassword": true,
+            "database": "AdventureWorks2017",
+            "groupId": "93BB3A09-A721-4FFB-9739-1884B316A3E2",
+            "id": "33806EDC-90C6-46DD-B292-C3A95C9471BA",
+            "commandTimeout": 30,
+            "encrypt": "Mandatory"
+        }
+    ]
 }
