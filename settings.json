@@ -21,7 +21,7 @@
     "git.openRepositoryInParentFolders": "always",
     "explorer.confirmPasteNative": false,
     "git.autofetch": true,
-    "editor.fontSize": 16,
+    "editor.fontSize": 15,
     "workbench.colorCustomizations": {
         "activityBar.activeBorder": "#89B4FA",
         "activityBar.background": "#1a1a1a",
@@ -237,29 +237,13 @@
         "tree.indentGuidesStroke": "#424242",
         "widget.shadow": "#00000030"
     },
-    "mssql.connectionGroups": [
-        {
-            "name": "ROOT",
-            "id": "93BB3A09-A721-4FFB-9739-1884B316A3E2"
-        }
-    ],
-    "mssql.connections": [
-        {
-            "authenticationType": "SqlLogin",
-            "connectTimeout": 30,
-            "applicationName": "vscode-mssql",
-            "applicationIntent": "ReadWrite",
-            "profileName": "AdventureWorks2017-Docker",
-            "server": "localhost",
-            "trustServerCertificate": true,
-            "user": "SA",
-            "password": "",
-            "savePassword": true,
-            "database": "AdventureWorks2017",
-            "groupId": "93BB3A09-A721-4FFB-9739-1884B316A3E2",
-            "id": "33806EDC-90C6-46DD-B292-C3A95C9471BA",
-            "commandTimeout": 30,
-            "encrypt": "Mandatory"
-        }
-    ]
+    "security.workspace.trust.untrustedFiles": "open",
+    "sqltools.highlightQuery": false,
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "window.zoomLevel": -1
 }
