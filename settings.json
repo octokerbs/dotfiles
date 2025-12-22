@@ -1,5 +1,4 @@
 {
-    "workbench.colorTheme": "One Dark Pro Darker",
     "workbench.iconTheme": "material-icon-theme",
     "editor.semanticHighlighting.enabled": true,
     "editor.fontFamily": "'JetBrainsMono Nerd Font', 'monospace', monospace",
@@ -22,6 +21,17 @@
     "explorer.confirmPasteNative": false,
     "git.autofetch": true,
     "editor.fontSize": 15,
+    "editor.bracketPairColorization.enabled": false,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "punctuation",
+                "settings": {
+                    "foreground": "#CAC8CB"
+                }
+            }
+        ]
+    },
     "workbench.colorCustomizations": {
         "activityBar.activeBorder": "#89B4FA",
         "activityBar.background": "#1a1a1a",
@@ -60,8 +70,6 @@
         "editor.selectionHighlightBackground": "#ffcc0020",
         "editor.wordHighlightBackground": "#ff9cac30",
         "editor.wordHighlightStrongBackground": "#c3e88d30",
-        "editorBracketMatch.background": "#212121",
-        "editorBracketMatch.border": "#ffcc0050",
         "editorCursor.foreground": "#ffcc00",
         "editorError.foreground": "#f0717870",
         "editorGroup.border": "#00000030",
@@ -237,13 +245,35 @@
         "tree.indentGuidesStroke": "#424242",
         "widget.shadow": "#00000030"
     },
-    "security.workspace.trust.untrustedFiles": "open",
-    "sqltools.highlightQuery": false,
-    "github.copilot.enable": {
-        "*": false,
-        "plaintext": false,
-        "markdown": false,
-        "scminput": false
+    "editor.semanticTokenColorCustomizations": {
+        "enabled": true,
+        "rules": {
+            "class": "#FFD700",
+            "interface": "#FFD700",
+            "struct": "#FFD700",
+            "enum": "#FFD700",
+            "type": "#FFD700",
+            "function": "#FF8000",
+            "method": "#FF8000",
+            "variable": "#BDB76B",
+            "parameter": "#BDB76B",
+            "property": "#BDB76B",
+            "namespace": "#B8D7A3",
+            "module": "#B8D7A3",
+            "keyword": "#FF635C",
+            "operator": "#CAC8CB",
+            "enumMember": "#BDB76B",
+            "typeParameter": "#FFD700",
+            "event": "#BDB76B",
+            "decorator": "#FF635C",
+            "macro": "#FF635C",
+            "label": "#FF635C",
+            "comment": "#6A9955",
+            "string": "#CD5C5C",
+            "number": "#B5CEA8",
+            "regexp": "#CD5C5C",
+            "modifier": "#FF635C"
+        }
     },
-    "window.zoomLevel": -1
+    "security.workspace.trust.untrustedFiles": "open"
 }
