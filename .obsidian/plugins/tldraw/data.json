@@ -8,7 +8,7 @@
     "confirmDestination": false,
     "assetsFolder": "tldraw/assets",
     "destinationMethod": "default-folder",
-    "defaultFolder": "assets/",
+    "defaultFolder": "diagrams/",
     "colocationSubfolder": ""
   },
   "file": {
