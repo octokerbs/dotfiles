@@ -6,7 +6,8 @@
   "showRibbon": true,
   "theme": "moonstone",
   "enabledCssSnippets": [
-    "headings"
+    "headings",
+    "center-embeds"
   ],
   "textFontFamily": "Charter",
   "monospaceFontFamily": "JetBrainsMono Nerd Font"
