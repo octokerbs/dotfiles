@@ -17,5 +17,17 @@
   "minimal-style@@h5-weight": 900,
   "minimal-style@@h6-weight": 700,
   "minimal-style@@h5-size": "1em",
-  "minimal-style@@h6-size": "0.85em"
+  "minimal-style@@h6-size": "0.85em",
+  "minimal-style@@bg1@@light": "#FBF9F5",
+  "minimal-style@@base@@light": "#FBF9F5",
+  "minimal-style@@bg2@@light": "#E9E6D7",
+  "minimal-style@@bg3@@light": "#E9E6D7",
+  "minimal-style@@ui1@@light": "#E9E6D7",
+  "minimal-style@@ui2@@light": "#E9E6D7",
+  "minimal-style@@ui3@@light": "#E9E6D7",
+  "minimal-style@@bold-weight": 900,
+  "minimal-style@@tx1@@light": "#000000",
+  "minimal-style@@bold-color@@light": "#000000",
+  "minimal-advanced@@hide-markdown": false,
+  "minimal-advanced@@styled-scrollbars": false
 }
