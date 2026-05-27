@@ -1,7 +1,7 @@
 <scheme name="Visual Assist Dark Cherno" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="ide">Rider</property>
-    <property name="ideVersion">2025.3.3.0.0</property>
+    <property name="ide">CLion</property>
+    <property name="ideVersion">2026.1.2.0.0</property>
     <property name="originalScheme">Visual Assist Dark Cherno</property>
   </metaInfo>
   <colors>
@@ -62,7 +62,7 @@
     </option>
     <option name="DEFAULT_CONSTANT">
       <value>
-        <option name="FOREGROUND" value="569cd6" />
+        <option name="FOREGROUND" value="b8d7a3" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT">
@@ -107,7 +107,7 @@
     </option>
     <option name="DEFAULT_GLOBAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="ff5242" />
+        <option name="FOREGROUND" value="bdb76b" />
         <option name="BACKGROUND" value="1e1e1e" />
       </value>
     </option>
@@ -154,7 +154,7 @@
     </option>
     <option name="DEFAULT_METADATA">
       <value>
-        <option name="FOREGROUND" value="b8d7a3" />
+        <option name="FOREGROUND" value="ff5242" />
       </value>
     </option>
     <option name="DEFAULT_NUMBER">
@@ -169,7 +169,7 @@
     </option>
     <option name="DEFAULT_PARAMETER">
       <value>
-        <option name="FOREGROUND" value="bdb76b" />
+        <option name="FOREGROUND" value="b8d7a3" />
       </value>
     </option>
     <option name="DEFAULT_PARENTHS">
@@ -391,6 +391,44 @@
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="a9a9a9" />
+      </value>
+    </option>
+    <option name="OC.BUILTIN_TYPE_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="ffd700" />
+      </value>
+    </option>
+    <option name="OC.MACRONAME">
+      <value>
+        <option name="FOREGROUND" value="ff8000" />
+      </value>
+    </option>
+    <option name="OC.NAMESPACE_LIKE">
+      <value>
+        <option name="FOREGROUND" value="b8d7a3" />
+      </value>
+    </option>
+    <option name="OC.OVERLOADED_OPERATOR">
+      <value />
+    </option>
+    <option name="OC.STRUCT_FIELD">
+      <value>
+        <option name="FOREGROUND" value="bdb76b" />
+      </value>
+    </option>
+    <option name="OC.STRUCT_LIKE">
+      <value>
+        <option name="FOREGROUND" value="ffd700" />
+      </value>
+    </option>
+    <option name="OC.TEMPLATE_TYPE">
+      <value>
+        <option name="FOREGROUND" value="ffd700" />
+      </value>
+    </option>
+    <option name="OC.TYPEDEF">
+      <value>
+        <option name="FOREGROUND" value="ff5242" />
       </value>
     </option>
     <option name="REFERENCE_HYPERLINK_COLOR">
