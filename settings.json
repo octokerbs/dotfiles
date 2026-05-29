@@ -1,27 +1,17 @@
 {
+    "workbench.colorTheme": "Dark Modern",
     "workbench.iconTheme": "material-icon-theme",
-    "editor.semanticHighlighting.enabled": true,
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "editor.fontSize": 14,
     "editor.fontFamily": "'JetBrainsMono Nerd Font', 'monospace', monospace",
     "editor.fontWeight": "500",
     "editor.formatOnSave": true,
-    "editor.lineNumbers": "relative",
-    "git.confirmSync": false,
-    "explorer.confirmDragAndDrop": false,
-    "editor.minimap.size": "fill",
     "editor.wordWrap": "on",
+    "editor.semanticHighlighting.enabled": true,
     "explorer.confirmDelete": false,
-    "editor.codeActionsOnSave": {
-        "source.organizeImports": "explicit"
-    },
-    "gopls": {
-        "ui.semanticTokens": true,
-        "ui.completion.usePlaceholders": true
-    },
-    "git.openRepositoryInParentFolders": "always",
-    "explorer.confirmPasteNative": false,
-    "git.autofetch": true,
-    "editor.fontSize": 13,
-    "security.workspace.trust.untrustedFiles": "open",
+    "python.createEnvironment.trigger": "off",
     "claudeCode.preferredLocation": "panel",
-    "workbench.colorTheme": "Monokai Pro (Filter Spectrum)"
+    "explorer.confirmDragAndDrop": false,
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "chat.titleBar.signIn.enabled": false
 }
