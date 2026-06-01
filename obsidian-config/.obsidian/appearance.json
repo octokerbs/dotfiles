@@ -1,0 +1,10 @@
+{
+  "theme": "moonstone",
+  "textFontFamily": "Cambria",
+  "baseFontSize": 22,
+  "cssTheme": "Minimal",
+  "accentColor": "#89b4fa",
+  "showViewHeader": false,
+  "showRibbon": false,
+  "monospaceFontFamily": "JetBrainsMono Nerd Font"
+}
